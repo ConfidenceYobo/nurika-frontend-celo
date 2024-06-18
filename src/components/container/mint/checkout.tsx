@@ -42,7 +42,7 @@ const selectedNFT = {
   },
 };
 
-// const NFT_PRICE = "3.01334429";
+const NFT_PRICE = "3.01334429";
 
 export default function CheckoutForm() {
   const title = useParams().title as SelectedNFTTitle;
