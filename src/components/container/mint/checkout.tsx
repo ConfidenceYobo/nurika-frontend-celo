@@ -156,7 +156,7 @@ function Counter({ selectedNFT }: { selectedNFT: string }) {
           onClick={() => onBuyHandle()}
           className="w-full md:w-auto md:px-10"
         >
-          Buy Now
+            Mint Now
         </Button>
       ) : (
         <ConnectWallet>
